@@ -1,0 +1,153 @@
+=== Research Paper Extraction Trace ===
+
+
+--- [PHASE 1] Slicing & Boundary Partitioning ---
+TOC Outline not found inside PDF metadata. Falling back to page-by-page scan...
+Detected outlines/sections for Paper:
+  - [1] Heading: 'Section Page 1' starting on PDF Page 1
+  - [1] Heading: 'Section Page 2' starting on PDF Page 2
+  - [1] Heading: 'Section Page 3' starting on PDF Page 3
+  - [1] Heading: 'Section Page 4' starting on PDF Page 4
+  - [1] Heading: 'Section Page 5' starting on PDF Page 5
+  - [1] Heading: 'Section Page 6' starting on PDF Page 6
+  - [1] Heading: 'Section Page 7' starting on PDF Page 7
+  - [1] Heading: 'Section Page 8' starting on PDF Page 8
+  - [1] Heading: 'Section Page 9' starting on PDF Page 9
+  - [1] Heading: 'Section Page 10' starting on PDF Page 10
+  - [1] Heading: 'Section Page 11' starting on PDF Page 11
+  - [1] Heading: 'Section Page 12' starting on PDF Page 12
+  - [1] Heading: 'Section Page 13' starting on PDF Page 13
+  - Excluded references/appendix sections starting at PDF Page 17
+  - Compiled Section 'Section Page 1' -> mapping to PDF Pages 1 to 1
+  - Compiled Section 'Section Page 2' -> mapping to PDF Pages 2 to 2
+  - Compiled Section 'Section Page 3' -> mapping to PDF Pages 3 to 3
+  - Compiled Section 'Section Page 4' -> mapping to PDF Pages 4 to 4
+  - Compiled Section 'Section Page 5' -> mapping to PDF Pages 5 to 5
+  - Compiled Section 'Section Page 6' -> mapping to PDF Pages 6 to 6
+  - Compiled Section 'Section Page 7' -> mapping to PDF Pages 7 to 7
+  - Compiled Section 'Section Page 8' -> mapping to PDF Pages 8 to 8
+  - Compiled Section 'Section Page 9' -> mapping to PDF Pages 9 to 9
+  - Compiled Section 'Section Page 10' -> mapping to PDF Pages 10 to 10
+  - Compiled Section 'Section Page 11' -> mapping to PDF Pages 11 to 11
+  - Compiled Section 'Section Page 12' -> mapping to PDF Pages 12 to 12
+  - Compiled Section 'Section Page 13' -> mapping to PDF Pages 13 to 16
+
+--- [PHASE 2] Local Candidate Term Generation (Smoothed TF-IDF) ---
+Section 'Section Page 1' Candidates (Token Count: 565):
+  Candidate 1: 'facial expression analysis' (Score: 0.03312, Count: 4, DF: 7)
+  Candidate 2: 'quantum information entanglement' (Score: 0.01799, Count: 2, DF: 2)
+  Candidate 3: 'geometric descriptor' (Score: 0.02392, Count: 2, DF: 3)
+  Candidate 4: 'information entanglement index' (Score: 0.01799, Count: 2, DF: 2)
+  Candidate 5: 'qiei' (Score: 0.01593, Count: 3, DF: 13)
+  Candidate 6: 'affective computing' (Score: 0.01196, Count: 1, DF: 3)
+  Candidate 7: 'von neumann entropy' (Score: 0.01196, Count: 1, DF: 3)
+  Candidate 8: 'technology' (Score: 0.01043, Count: 2, DF: 1)
+Section 'Section Page 2' Candidates (Token Count: 519):
+  Candidate 1: 'superposition' (Score: 0.02604, Count: 2, DF: 3)
+  Candidate 2: 'entanglement' (Score: 0.02318, Count: 3, DF: 9)
+  Candidate 3: 'qiei' (Score: 0.01734, Count: 3, DF: 13)
+  Candidate 4: 'topological descriptor' (Score: 0.01703, Count: 1, DF: 1)
+  Candidate 5: 'intensity estimation' (Score: 0.01703, Count: 1, DF: 1)
+  Candidate 6: 'appearance' (Score: 0.01468, Count: 3, DF: 2)
+  Candidate 7: 'fea' (Score: 0.01435, Count: 2, DF: 10)
+  Candidate 8: 'affective computing' (Score: 0.01302, Count: 1, DF: 3)
+Section 'Section Page 3' Candidates (Token Count: 688):
+  Candidate 1: 'qiei' (Score: 0.03488, Count: 8, DF: 13)
+  Candidate 2: 'von neumann entropy' (Score: 0.01965, Count: 2, DF: 3)
+  Candidate 3: 'entanglement' (Score: 0.01748, Count: 3, DF: 9)
+  Candidate 4: 'geometric' (Score: 0.01611, Count: 6, DF: 5)
+  Candidate 5: 'dependency' (Score: 0.01467, Count: 7, DF: 8)
+  Candidate 6: 'region' (Score: 0.01405, Count: 9, DF: 12)
+  Candidate 7: 'entropic' (Score: 0.01285, Count: 3, DF: 1)
+  Candidate 8: 'facial' (Score: 0.01249, Count: 8, DF: 12)
+Section 'Section Page 4' Candidates (Token Count: 209):
+  Candidate 1: 'facial expression analysis' (Score: 0.06716, Count: 3, DF: 7)
+  Candidate 2: 'stages superposition' (Score: 0.02819, Count: 1, DF: 1)
+  Candidate 3: 'qiei based' (Score: 0.02819, Count: 1, DF: 1)
+  Candidate 4: 'detected' (Score: 0.02819, Count: 2, DF: 1)
+  Candidate 5: 'subsequent qiei' (Score: 0.02819, Count: 1, DF: 1)
+  Candidate 6: 'qiei computa' (Score: 0.02819, Count: 1, DF: 1)
+  Candidate 7: 'superposition layer' (Score: 0.02819, Count: 1, DF: 1)
+  Candidate 8: 'equal superposition' (Score: 0.02819, Count: 1, DF: 1)
+Section 'Section Page 5' Candidates (Token Count: 283):
+  Candidate 1: 'intra region entanglement' (Score: 0.05386, Count: 3, DF: 2)
+  Candidate 2: 'entanglement which capture' (Score: 0.04164, Count: 2, DF: 1)
+  Candidate 3: 'inter region entanglement' (Score: 0.03184, Count: 2, DF: 3)
+  Candidate 4: 'qiei' (Score: 0.03180, Count: 3, DF: 13)
+  Candidate 5: 'connectivity' (Score: 0.03123, Count: 3, DF: 1)
+  Candidate 6: 'among landmark' (Score: 0.03123, Count: 3, DF: 1)
+  Candidate 7: 'fig' (Score: 0.02388, Count: 3, DF: 3)
+  Candidate 8: 'within' (Score: 0.02388, Count: 3, DF: 3)
+Section 'Section Page 6' Candidates (Token Count: 437):
+  Candidate 1: 'inter region entanglement' (Score: 0.05155, Count: 5, DF: 3)
+  Candidate 2: 'qiei score' (Score: 0.03093, Count: 3, DF: 3)
+  Candidate 3: 'qiei descriptor' (Score: 0.03093, Count: 3, DF: 3)
+  Candidate 4: 'von neumann entropy' (Score: 0.03093, Count: 2, DF: 3)
+  Candidate 5: 'vector' (Score: 0.02578, Count: 5, DF: 3)
+  Candidate 6: 'entanglement score' (Score: 0.02062, Count: 2, DF: 3)
+  Candidate 7: 'emouth' (Score: 0.02022, Count: 3, DF: 1)
+  Candidate 8: 'intra region' (Score: 0.01650, Count: 5, DF: 8)
+Section 'Section Page 7' Candidates (Token Count: 380):
+  Candidate 1: 'mapping qiei feature' (Score: 0.03101, Count: 2, DF: 1)
+  Candidate 2: 'eyebrow' (Score: 0.04743, Count: 8, DF: 3)
+  Candidate 3: 'region entanglement jaw' (Score: 0.03101, Count: 2, DF: 1)
+  Candidate 4: 'nose' (Score: 0.03557, Count: 6, DF: 3)
+  Candidate 5: 'mouth' (Score: 0.03205, Count: 6, DF: 4)
+  Candidate 6: 'mapping qiei' (Score: 0.03101, Count: 2, DF: 1)
+  Candidate 7: 'muscle' (Score: 0.02006, Count: 3, DF: 2)
+  Candidate 8: 'unit' (Score: 0.01602, Count: 3, DF: 4)
+Section 'Section Page 8' Candidates (Token Count: 483):
+  Candidate 1: 'qiei feature' (Score: 0.01530, Count: 2, DF: 5)
+  Candidate 2: 'qiskit' (Score: 0.01578, Count: 3, DF: 2)
+  Candidate 3: 'qubit' (Score: 0.01399, Count: 3, DF: 3)
+  Candidate 4: 'facial' (Score: 0.01334, Count: 6, DF: 12)
+  Candidate 5: 'cross' (Score: 0.01261, Count: 3, DF: 4)
+  Candidate 6: 'shot' (Score: 0.01261, Count: 3, DF: 4)
+  Candidate 7: 'extracted' (Score: 0.01220, Count: 2, DF: 1)
+  Candidate 8: 'aer' (Score: 0.01220, Count: 2, DF: 1)
+Section 'Section Page 9' Candidates (Token Count: 525):
+  Candidate 1: 'qiei after qiei' (Score: 0.02245, Count: 2, DF: 1)
+  Candidate 2: 'graph' (Score: 0.01452, Count: 3, DF: 2)
+  Candidate 3: 'accuracy' (Score: 0.01290, Count: 4, DF: 6)
+  Candidate 4: 'texture' (Score: 0.01287, Count: 3, DF: 3)
+  Candidate 5: 'setting' (Score: 0.01287, Count: 3, DF: 3)
+  Candidate 6: 'gain' (Score: 0.01287, Count: 3, DF: 3)
+  Candidate 7: 'feature' (Score: 0.01228, Count: 6, DF: 12)
+  Candidate 8: 'occlusion' (Score: 0.01188, Count: 4, DF: 7)
+Section 'Section Page 10' Candidates (Token Count: 536):
+  Candidate 1: 'baseline and qiei' (Score: 0.02198, Count: 2, DF: 1)
+  Candidate 2: 'gain' (Score: 0.02101, Count: 5, DF: 3)
+  Candidate 3: 'generalization' (Score: 0.01896, Count: 4, DF: 2)
+  Candidate 4: 'qiei augmented accuracy' (Score: 0.01896, Count: 2, DF: 2)
+  Candidate 5: 'dataset' (Score: 0.01746, Count: 6, DF: 7)
+  Candidate 6: 'affectnet' (Score: 0.01264, Count: 4, DF: 6)
+  Candidate 7: 'improvement' (Score: 0.01261, Count: 3, DF: 3)
+  Candidate 8: 'per' (Score: 0.01136, Count: 3, DF: 4)
+Section 'Section Page 11' Candidates (Token Count: 389):
+  Candidate 1: 'region qiei fea' (Score: 0.03029, Count: 2, DF: 1)
+  Candidate 2: 'poster fea' (Score: 0.03029, Count: 2, DF: 1)
+  Candidate 3: 'fea tures across' (Score: 0.03029, Count: 2, DF: 1)
+  Candidate 4: 'inter region qiei' (Score: 0.03029, Count: 2, DF: 1)
+  Candidate 5: 'qiei fea ture' (Score: 0.02612, Count: 2, DF: 2)
+  Candidate 6: 'radar' (Score: 0.02272, Count: 3, DF: 1)
+  Candidate 7: 'across label' (Score: 0.02272, Count: 3, DF: 1)
+  Candidate 8: 'qiei feature' (Score: 0.01900, Count: 2, DF: 5)
+Section 'Section Page 12' Candidates (Token Count: 488):
+  Candidate 1: 'qiei' (Score: 0.03689, Count: 6, DF: 13)
+  Candidate 2: 'left' (Score: 0.02082, Count: 4, DF: 2)
+  Candidate 3: 'signal' (Score: 0.01811, Count: 3, DF: 1)
+  Candidate 4: 'cue' (Score: 0.01562, Count: 3, DF: 2)
+  Candidate 5: 'simulator' (Score: 0.01562, Count: 3, DF: 2)
+  Candidate 6: 'fea' (Score: 0.01526, Count: 2, DF: 10)
+  Candidate 7: 'geometric descriptor' (Score: 0.01385, Count: 1, DF: 3)
+  Candidate 8: 'eye' (Score: 0.01385, Count: 3, DF: 3)
+Section 'Section Page 13' Candidates (Token Count: 2152):
+  Candidate 1: 'facial expression recognition' (Score: 0.01232, Count: 9, DF: 1)
+  Candidate 2: 'facial' (Score: 0.01947, Count: 39, DF: 12)
+  Candidate 3: 'ieee' (Score: 0.01643, Count: 12, DF: 1)
+  Candidate 4: 'affective computing' (Score: 0.01256, Count: 4, DF: 3)
+  Candidate 5: 'journal' (Score: 0.01095, Count: 8, DF: 1)
+  Candidate 6: 'computer' (Score: 0.01037, Count: 11, DF: 4)
+  Candidate 7: 'emotion' (Score: 0.01037, Count: 11, DF: 4)
+  Candidate 8: 'conference' (Score: 0.00958, Count: 7, DF: 1)
+AI Filtering: Input 98 candidates -> Output 33 verified concepts.

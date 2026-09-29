@@ -1,0 +1,54 @@
+{
+  "table": "Table 3: Classification accuracy (%) for CK+: before vs. after QIEI comparison",
+  "paper_reference": "ECML PKDD 2026",
+  "results": [
+    {
+      "model": "SVM (RBF)",
+      "before_qiei": 80.76,
+      "paper_raw_qiei": 75.53,
+      "paper_delta": -5.23,
+      "improved_fused_qiei": 81.68,
+      "improved_delta": 0.92
+    },
+    {
+      "model": "ANN (MLP)",
+      "before_qiei": 84.72,
+      "paper_raw_qiei": 79.82,
+      "paper_delta": -4.9,
+      "improved_fused_qiei": 83.76,
+      "improved_delta": -0.96
+    },
+    {
+      "model": "Logistic Regression",
+      "before_qiei": 88.11,
+      "paper_raw_qiei": 85.04,
+      "paper_delta": -3.07,
+      "improved_fused_qiei": 87.48,
+      "improved_delta": -0.62
+    },
+    {
+      "model": "Random Forest (RF)",
+      "before_qiei": 82.59,
+      "paper_raw_qiei": 81.37,
+      "paper_delta": -1.21,
+      "improved_fused_qiei": 82.59,
+      "improved_delta": -0.0
+    },
+    {
+      "model": "KNN (k=5)",
+      "before_qiei": 77.68,
+      "paper_raw_qiei": 68.52,
+      "paper_delta": -9.16,
+      "improved_fused_qiei": 77.97,
+      "improved_delta": 0.29
+    },
+    {
+      "model": "Naive Bayes (NB)",
+      "before_qiei": 80.74,
+      "paper_raw_qiei": 79.55,
+      "paper_delta": -1.18,
+      "improved_fused_qiei": 80.75,
+      "improved_delta": 0.01
+    }
+  ]
+}

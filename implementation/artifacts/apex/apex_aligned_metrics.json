@@ -1,0 +1,39 @@
+{
+  "experiment": "Aligned CK+ Apex Benchmark (10-Fold Subject-Disjoint)",
+  "paper": "Quantum Information Entanglement Index for Facial Expression Analysis (ECML PKDD 2026)",
+  "dataset": "CK+ (327 Apex Frames)",
+  "total_apex_samples": 327,
+  "unique_subjects": 118,
+  "models_evaluated": {
+    "RBF_SVM": {
+      "baseline_mean": 82.63257575757576,
+      "baseline_std": 6.830822667509955,
+      "qiei_mean": 78.63636363636363,
+      "qiei_std": 5.804267660232887,
+      "gain": -3.996212121212139,
+      "t_statistic": -2.1860883778745257,
+      "p_value": 0.05661003097216438,
+      "significant": false
+    },
+    "Random_Forest": {
+      "baseline_mean": 82.59469696969697,
+      "baseline_std": 6.006027925483663,
+      "qiei_mean": 81.96022727272728,
+      "qiei_std": 4.957139892139294,
+      "gain": -0.6344696969696884,
+      "t_statistic": -0.4246511516158272,
+      "p_value": 0.6810623479901283,
+      "significant": false
+    },
+    "MLP": {
+      "baseline_mean": 84.73484848484848,
+      "baseline_std": 5.219134805017749,
+      "qiei_mean": 81.94128787878788,
+      "qiei_std": 4.6742428079416385,
+      "gain": -2.793560606060609,
+      "t_statistic": -1.3542102961875553,
+      "p_value": 0.20869016074293598,
+      "significant": false
+    }
+  }
+}

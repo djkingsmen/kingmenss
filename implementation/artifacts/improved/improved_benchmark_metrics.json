@@ -1,0 +1,105 @@
+{
+  "optimal_alpha": 0.25,
+  "alpha_sweep": {
+    "0.1": {
+      "RBF-SVM": 0.8231060606060605,
+      "KNN (k=5)": 0.7650568181818181,
+      "Random Forest": 0.8286931818181819
+    },
+    "0.15": {
+      "RBF-SVM": 0.8291666666666666,
+      "KNN (k=5)": 0.7772727272727272,
+      "Random Forest": 0.8286931818181819
+    },
+    "0.2": {
+      "RBF-SVM": 0.8291666666666666,
+      "KNN (k=5)": 0.7618371212121212,
+      "Random Forest": 0.8286931818181819
+    },
+    "0.25": {
+      "RBF-SVM": 0.8291666666666666,
+      "KNN (k=5)": 0.7650568181818181,
+      "Random Forest": 0.8286931818181819
+    },
+    "0.3": {
+      "RBF-SVM": 0.8258522727272727,
+      "KNN (k=5)": 0.7588068181818182,
+      "Random Forest": 0.8286931818181819
+    },
+    "0.4": {
+      "RBF-SVM": 0.8229166666666666,
+      "KNN (k=5)": 0.7402462121212121,
+      "Random Forest": 0.8286931818181819
+    },
+    "0.5": {
+      "RBF-SVM": 0.8230113636363636,
+      "KNN (k=5)": 0.7310606060606061,
+      "Random Forest": 0.8286931818181819
+    }
+  },
+  "pca_sweep": {
+    "3": {
+      "RBF-SVM": 0.8198863636363637,
+      "Random Forest": 0.8134469696969697
+    },
+    "4": {
+      "RBF-SVM": 0.8288825757575757,
+      "Random Forest": 0.8165719696969698
+    },
+    "6": {
+      "RBF-SVM": 0.8198863636363637,
+      "Random Forest": 0.8318181818181818
+    },
+    "8": {
+      "RBF-SVM": 0.8198863636363637,
+      "Random Forest": 0.8258522727272727
+    }
+  },
+  "classifiers": {
+    "Random Forest": {
+      "baseline_mean": 81.97,
+      "baseline_std": 6.24,
+      "raw_qiei_mean": 82.87,
+      "improved_mean": 82.87,
+      "improved_std": 4.35,
+      "net_gain": 0.9,
+      "max_fold_accuracy": 93.94
+    },
+    "RBF-SVM": {
+      "baseline_mean": 82.63,
+      "baseline_std": 6.83,
+      "raw_qiei_mean": 78.64,
+      "improved_mean": 82.92,
+      "improved_std": 6.01,
+      "net_gain": 0.28,
+      "max_fold_accuracy": 90.91
+    },
+    "MLP": {
+      "baseline_mean": 83.8,
+      "baseline_std": 5.07,
+      "raw_qiei_mean": 81.66,
+      "improved_mean": 84.1,
+      "improved_std": 4.45,
+      "net_gain": 0.3,
+      "max_fold_accuracy": 90.91
+    },
+    "KNN (k=5)": {
+      "baseline_mean": 76.8,
+      "baseline_std": 7.95,
+      "raw_qiei_mean": 70.94,
+      "improved_mean": 76.51,
+      "improved_std": 7.44,
+      "net_gain": -0.29,
+      "max_fold_accuracy": 87.5
+    },
+    "Naive Bayes": {
+      "baseline_mean": 81.65,
+      "baseline_std": 4.91,
+      "raw_qiei_mean": 79.54,
+      "improved_mean": 79.54,
+      "improved_std": 4.46,
+      "net_gain": -2.11,
+      "max_fold_accuracy": 87.5
+    }
+  }
+}

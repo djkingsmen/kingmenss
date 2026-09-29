@@ -1,0 +1,98 @@
+{
+  "paper_title": "Quantum Information Entanglement Index for Facial Expression Analysis",
+  "sections": {
+    "Section Page 1": [
+      "facial expression analysis",
+      "quantum information entanglement",
+      "geometric descriptor",
+      "information entanglement index",
+      "qiei",
+      "affective computing",
+      "von neumann entropy"
+    ],
+    "Section Page 2": [
+      "superposition",
+      "entanglement",
+      "qiei",
+      "topological descriptor",
+      "intensity estimation",
+      "fea",
+      "affective computing"
+    ],
+    "Section Page 3": [
+      "qiei",
+      "von neumann entropy",
+      "entanglement",
+      "dependency",
+      "entropic"
+    ],
+    "Section Page 4": [
+      "facial expression analysis",
+      "equal superposition"
+    ],
+    "Section Page 5": [
+      "qiei",
+      "connectivity"
+    ],
+    "Section Page 6": [
+      "von neumann entropy"
+    ],
+    "Section Page 7": [],
+    "Section Page 8": [
+      "qiskit",
+      "qubit"
+    ],
+    "Section Page 9": [
+      "graph"
+    ],
+    "Section Page 10": [
+      "affectnet"
+    ],
+    "Section Page 11": [],
+    "Section Page 12": [
+      "qiei",
+      "fea",
+      "geometric descriptor"
+    ],
+    "Section Page 13": [
+      "facial expression recognition",
+      "affective computing",
+      "emotion"
+    ]
+  },
+  "unique_key_terms": [
+    "affective computing",
+    "affectnet",
+    "appearance-based descriptors",
+    "au co-occurrence",
+    "compound expressions",
+    "connectivity",
+    "dependency",
+    "discriminative features",
+    "emotion",
+    "entanglement",
+    "entropic",
+    "equal superposition",
+    "facial action coding system",
+    "facial action units",
+    "facial expression analysis",
+    "facial expression recognition",
+    "fea",
+    "geometric descriptor",
+    "graph",
+    "hilbert-space feature mapping",
+    "information entanglement index",
+    "intensity estimation",
+    "inter-region dependencies",
+    "normalized euclidean distances",
+    "qiei",
+    "qiskit",
+    "quantum information entanglement",
+    "quantum information entanglement index",
+    "qubit",
+    "reduced representations",
+    "superposition",
+    "topological descriptor",
+    "von neumann entropy"
+  ]
+}

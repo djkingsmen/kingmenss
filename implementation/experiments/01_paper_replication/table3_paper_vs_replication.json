@@ -1,0 +1,62 @@
+{
+  "Random Forest": {
+    "paper_reported": {
+      "before": 82.59,
+      "after": 81.37,
+      "delta": -1.21
+    },
+    "replicated_our_run": {
+      "before": 81.97,
+      "after": 82.87,
+      "delta": 0.9
+    }
+  },
+  "RBF-SVM": {
+    "paper_reported": {
+      "before": 80.76,
+      "after": 75.53,
+      "delta": -5.23
+    },
+    "replicated_our_run": {
+      "before": 82.63,
+      "after": 78.64,
+      "delta": -4.0
+    }
+  },
+  "MLP": {
+    "paper_reported": {
+      "before": 84.72,
+      "after": 79.82,
+      "delta": -4.9
+    },
+    "replicated_our_run": {
+      "before": 83.8,
+      "after": 81.66,
+      "delta": -2.14
+    }
+  },
+  "KNN (k=5)": {
+    "paper_reported": {
+      "before": 77.68,
+      "after": 68.52,
+      "delta": -9.16
+    },
+    "replicated_our_run": {
+      "before": 76.8,
+      "after": 70.94,
+      "delta": -5.86
+    }
+  },
+  "Naive Bayes": {
+    "paper_reported": {
+      "before": 80.74,
+      "after": 79.55,
+      "delta": -1.18
+    },
+    "replicated_our_run": {
+      "before": 81.65,
+      "after": 79.54,
+      "delta": -2.11
+    }
+  }
+}

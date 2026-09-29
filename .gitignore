@@ -1,0 +1,8 @@
+# Python bytecode and local run output
+__pycache__/
+*.py[cod]
+
+# Runtime logs
+implementation/logs/*.log
+implementation/logs/*_timings.json
+implementation/logs/latest_*

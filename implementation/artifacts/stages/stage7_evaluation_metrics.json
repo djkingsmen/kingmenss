@@ -1,0 +1,21 @@
+{
+  "dataset": "CK+48 (Real)",
+  "protocol": "Subject-Disjoint 80:10:10 Split",
+  "num_train_samples": 80,
+  "num_test_samples": 35,
+  "baseline_accuracy_pct": {
+    "RBF_SVM": 71.42857142857143,
+    "Random_Forest": 65.71428571428571,
+    "MLP": 74.28571428571429
+  },
+  "qiei_augmented_accuracy_pct": {
+    "RBF_SVM": 68.57142857142857,
+    "Random_Forest": 71.42857142857143,
+    "MLP": 68.57142857142857
+  },
+  "statistical_significance": {
+    "t_statistic": -0.2773500981126146,
+    "p_value": 0.8075499102701247,
+    "statistically_significant": false
+  }
+}
