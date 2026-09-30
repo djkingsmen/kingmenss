@@ -1,0 +1,41 @@
+{
+  "title": "QIEI Localized Observation & Diagnostic Master Report",
+  "num_test_samples": 12,
+  "test_accuracy_pct": 16.666666666666664,
+  "module1_collinearity": {
+    "high_vif_features_count": 21,
+    "collinear_groups_count": 6
+  },
+  "module2_attribution": {
+    "samples_explained": 5
+  },
+  "module3_confusion_radar": {
+    "statistically_flagged_features": [
+      "intra_left_eyebrow",
+      "intra_nose",
+      "intra_left_eye",
+      "intra_jaw",
+      "intra_mouth_averaged",
+      "inter_left_eye__nose",
+      "inter_right_eyebrow__mouth_outer",
+      "inter_right_eye__mouth_outer",
+      "inter_left_eye__mouth_outer"
+    ]
+  },
+  "module4_diagnostics": {
+    "error_taxonomy_breakdown": {
+      "Landmark Data Degradation": 10.0,
+      "Quantum Feature Miscalibration": 20.0,
+      "Classifier Boundary Overlap": 70.0
+    },
+    "au_anomalies_flagged": 12
+  },
+  "artifacts_generated": [
+    "vif_collinearity_heatmap.png",
+    "vif_collinearity_summary.json",
+    "shap_attribution_summary.json",
+    "differential_entanglement_scores.json",
+    "error_taxonomy_breakdown.json",
+    "rl_state_reward_log.json"
+  ]
+}

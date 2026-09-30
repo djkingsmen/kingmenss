@@ -1,0 +1,88 @@
+{
+  "num_samples": 60,
+  "vif_scores": {
+    "intra_right_eyebrow": 3.1869,
+    "intra_left_eyebrow": 9.5345,
+    "intra_nose": 17.0553,
+    "intra_right_eye": 23.5129,
+    "intra_left_eye": 48.7371,
+    "intra_jaw": 18.515,
+    "intra_mouth_averaged": 2.3581,
+    "inter_right_eyebrow__left_eyebrow": 10000.0,
+    "inter_right_eyebrow__right_eye": 10000.0,
+    "inter_left_eyebrow__left_eye": 10000.0,
+    "inter_right_eye__left_eye": 10000.0,
+    "inter_right_eyebrow__nose": 10000.0,
+    "inter_left_eyebrow__nose": 10000.0,
+    "inter_right_eye__nose": 10000.0,
+    "inter_left_eye__nose": 10000.0,
+    "inter_nose__mouth_outer": 10000.0,
+    "inter_nose__mouth_inner": 10000.0,
+    "inter_right_eyebrow__mouth_outer": 10000.0,
+    "inter_left_eyebrow__mouth_outer": 10000.0,
+    "inter_right_eye__mouth_outer": 10000.0,
+    "inter_left_eye__mouth_outer": 10000.0,
+    "inter_jaw__mouth_outer": 10000.0,
+    "inter_jaw__nose": 10000.0,
+    "inter_mouth_outer__mouth_inner": 2.668
+  },
+  "high_vif_features": [
+    "intra_left_eyebrow",
+    "intra_nose",
+    "intra_right_eye",
+    "intra_left_eye",
+    "intra_jaw",
+    "inter_right_eyebrow__left_eyebrow",
+    "inter_right_eyebrow__right_eye",
+    "inter_left_eyebrow__left_eye",
+    "inter_right_eye__left_eye",
+    "inter_right_eyebrow__nose",
+    "inter_left_eyebrow__nose",
+    "inter_right_eye__nose",
+    "inter_left_eye__nose",
+    "inter_nose__mouth_outer",
+    "inter_nose__mouth_inner",
+    "inter_right_eyebrow__mouth_outer",
+    "inter_left_eyebrow__mouth_outer",
+    "inter_right_eye__mouth_outer",
+    "inter_left_eye__mouth_outer",
+    "inter_jaw__mouth_outer",
+    "inter_jaw__nose"
+  ],
+  "collinear_groups": [
+    [
+      "intra_left_eyebrow",
+      "inter_left_eyebrow__left_eye",
+      "inter_left_eyebrow__nose",
+      "inter_left_eyebrow__mouth_outer"
+    ],
+    [
+      "intra_nose",
+      "inter_nose__mouth_outer",
+      "inter_nose__mouth_inner"
+    ],
+    [
+      "intra_right_eye",
+      "inter_right_eye__left_eye",
+      "inter_right_eye__nose",
+      "inter_right_eye__mouth_outer"
+    ],
+    [
+      "intra_left_eye",
+      "inter_left_eye__nose",
+      "inter_left_eye__mouth_outer"
+    ],
+    [
+      "intra_jaw",
+      "inter_jaw__mouth_outer",
+      "inter_jaw__nose"
+    ],
+    [
+      "inter_right_eyebrow__left_eyebrow",
+      "inter_right_eyebrow__right_eye",
+      "inter_right_eyebrow__nose",
+      "inter_right_eyebrow__mouth_outer"
+    ]
+  ],
+  "heatmap_artifact": "C:\\Users\\likhi\\OneDrive\\Pictures\\Desktop\\addn\\kingmenss\\implementation\\artifacts\\xai\\vif_collinearity_heatmap.png"
+}

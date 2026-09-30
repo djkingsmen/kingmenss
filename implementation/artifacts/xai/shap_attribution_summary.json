@@ -1,0 +1,782 @@
+[
+  {
+    "base_value": 0.5369,
+    "prediction_val": 0.53148,
+    "shap_values": [
+      0.0012027266228109386,
+      -0.005731268274836788,
+      0.00314914205631198,
+      -0.002899890939679368,
+      -0.00037320029710384214,
+      0.000191840365184022,
+      -0.00040391019264993637,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05,
+      -3.260764337187997e-05
+    ],
+    "top_drivers": [
+      {
+        "feature": "intra_left_eyebrow",
+        "shap_value": -0.00573,
+        "feature_value": 0.16893
+      },
+      {
+        "feature": "intra_nose",
+        "shap_value": 0.00315,
+        "feature_value": 0.56077
+      },
+      {
+        "feature": "intra_right_eye",
+        "shap_value": -0.0029,
+        "feature_value": 0.58447
+      },
+      {
+        "feature": "intra_right_eyebrow",
+        "shap_value": 0.0012,
+        "feature_value": 0.5548
+      },
+      {
+        "feature": "intra_mouth_averaged",
+        "shap_value": -0.0004,
+        "feature_value": 0.73384
+      },
+      {
+        "feature": "intra_left_eye",
+        "shap_value": -0.00037,
+        "feature_value": 0.16026
+      },
+      {
+        "feature": "intra_jaw",
+        "shap_value": 0.00019,
+        "feature_value": 0.95729
+      },
+      {
+        "feature": "inter_jaw__nose",
+        "shap_value": -3e-05,
+        "feature_value": 1.46843
+      },
+      {
+        "feature": "inter_right_eyebrow__left_eyebrow",
+        "shap_value": -3e-05,
+        "feature_value": 1.02077
+      },
+      {
+        "feature": "inter_right_eyebrow__right_eye",
+        "shap_value": -3e-05,
+        "feature_value": 1.02077
+      },
+      {
+        "feature": "inter_left_eyebrow__left_eye",
+        "shap_value": -3e-05,
+        "feature_value": 0.68547
+      },
+      {
+        "feature": "inter_right_eye__left_eye",
+        "shap_value": -3e-05,
+        "feature_value": 1.26066
+      },
+      {
+        "feature": "inter_mouth_outer__mouth_inner",
+        "shap_value": -3e-05,
+        "feature_value": 1.39986
+      },
+      {
+        "feature": "inter_left_eyebrow__nose",
+        "shap_value": -3e-05,
+        "feature_value": 0.68547
+      },
+      {
+        "feature": "inter_right_eye__nose",
+        "shap_value": -3e-05,
+        "feature_value": 1.26066
+      },
+      {
+        "feature": "inter_left_eye__nose",
+        "shap_value": -3e-05,
+        "feature_value": 0.83611
+      },
+      {
+        "feature": "inter_nose__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 1.21677
+      },
+      {
+        "feature": "inter_nose__mouth_inner",
+        "shap_value": -3e-05,
+        "feature_value": 1.21677
+      },
+      {
+        "feature": "inter_right_eyebrow__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 1.02077
+      },
+      {
+        "feature": "inter_left_eyebrow__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 0.68547
+      },
+      {
+        "feature": "inter_right_eye__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 1.26066
+      },
+      {
+        "feature": "inter_left_eye__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 0.83611
+      },
+      {
+        "feature": "inter_jaw__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 1.46843
+      },
+      {
+        "feature": "inter_right_eyebrow__nose",
+        "shap_value": -3e-05,
+        "feature_value": 1.02077
+      }
+    ],
+    "sample_index": 0,
+    "true_label": "surprise",
+    "predicted_label": "contempt",
+    "waterfall_artifact": "C:\\Users\\likhi\\OneDrive\\Pictures\\Desktop\\addn\\kingmenss\\implementation\\artifacts\\xai\\sample_0_waterfall_surprise_vs_contempt.png"
+  },
+  {
+    "base_value": 0.5369,
+    "prediction_val": 0.53624,
+    "shap_values": [
+      -0.0006567580163761309,
+      0.0004468451300385823,
+      0.0012043643126254772,
+      -0.0010621569687339382,
+      -0.00041862106480966327,
+      0.0004751343999914549,
+      -0.0001815445093883479,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05,
+      -2.7315558659429378e-05
+    ],
+    "top_drivers": [
+      {
+        "feature": "intra_nose",
+        "shap_value": 0.0012,
+        "feature_value": 0.54794
+      },
+      {
+        "feature": "intra_right_eye",
+        "shap_value": -0.00106,
+        "feature_value": 0.59659
+      },
+      {
+        "feature": "intra_right_eyebrow",
+        "shap_value": -0.00066,
+        "feature_value": 0.5434
+      },
+      {
+        "feature": "intra_jaw",
+        "shap_value": 0.00048,
+        "feature_value": 0.95992
+      },
+      {
+        "feature": "intra_left_eyebrow",
+        "shap_value": 0.00045,
+        "feature_value": 0.21277
+      },
+      {
+        "feature": "intra_left_eye",
+        "shap_value": -0.00042,
+        "feature_value": 0.15791
+      },
+      {
+        "feature": "intra_mouth_averaged",
+        "shap_value": -0.00018,
+        "feature_value": 0.73516
+      },
+      {
+        "feature": "inter_jaw__nose",
+        "shap_value": -3e-05,
+        "feature_value": 1.47257
+      },
+      {
+        "feature": "inter_right_eyebrow__left_eyebrow",
+        "shap_value": -3e-05,
+        "feature_value": 1.02886
+      },
+      {
+        "feature": "inter_right_eyebrow__right_eye",
+        "shap_value": -3e-05,
+        "feature_value": 1.02886
+      },
+      {
+        "feature": "inter_left_eyebrow__left_eye",
+        "shap_value": -3e-05,
+        "feature_value": 0.80557
+      },
+      {
+        "feature": "inter_right_eye__left_eye",
+        "shap_value": -3e-05,
+        "feature_value": 1.27227
+      },
+      {
+        "feature": "inter_mouth_outer__mouth_inner",
+        "shap_value": -3e-05,
+        "feature_value": 1.39105
+      },
+      {
+        "feature": "inter_left_eyebrow__nose",
+        "shap_value": -3e-05,
+        "feature_value": 0.80557
+      },
+      {
+        "feature": "inter_right_eye__nose",
+        "shap_value": -3e-05,
+        "feature_value": 1.27227
+      },
+      {
+        "feature": "inter_left_eye__nose",
+        "shap_value": -3e-05,
+        "feature_value": 0.83011
+      },
+      {
+        "feature": "inter_nose__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 1.20365
+      },
+      {
+        "feature": "inter_nose__mouth_inner",
+        "shap_value": -3e-05,
+        "feature_value": 1.20365
+      },
+      {
+        "feature": "inter_right_eyebrow__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 1.02886
+      },
+      {
+        "feature": "inter_left_eyebrow__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 0.80557
+      },
+      {
+        "feature": "inter_right_eye__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 1.27227
+      },
+      {
+        "feature": "inter_left_eye__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 0.83011
+      },
+      {
+        "feature": "inter_jaw__mouth_outer",
+        "shap_value": -3e-05,
+        "feature_value": 1.47257
+      },
+      {
+        "feature": "inter_right_eyebrow__nose",
+        "shap_value": -3e-05,
+        "feature_value": 1.02886
+      }
+    ],
+    "sample_index": 1,
+    "true_label": "anger",
+    "predicted_label": "contempt",
+    "waterfall_artifact": "C:\\Users\\likhi\\OneDrive\\Pictures\\Desktop\\addn\\kingmenss\\implementation\\artifacts\\xai\\sample_1_waterfall_anger_vs_contempt.png"
+  },
+  {
+    "base_value": 0.5369,
+    "prediction_val": 0.53795,
+    "shap_values": [
+      -0.0019226873049880543,
+      0.0003987221538662094,
+      0.0008044700750154351,
+      0.001776624361879276,
+      0.00046073105559301823,
+      -0.0009430452596454707,
+      0.0002504984232590621,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05,
+      1.3002607656355093e-05
+    ],
+    "top_drivers": [
+      {
+        "feature": "intra_right_eyebrow",
+        "shap_value": -0.00192,
+        "feature_value": 0.53738
+      },
+      {
+        "feature": "intra_right_eye",
+        "shap_value": 0.00178,
+        "feature_value": 0.61828
+      },
+      {
+        "feature": "intra_jaw",
+        "shap_value": -0.00094,
+        "feature_value": 0.94961
+      },
+      {
+        "feature": "intra_nose",
+        "shap_value": 0.0008,
+        "feature_value": 0.54495
+      },
+      {
+        "feature": "intra_left_eye",
+        "shap_value": 0.00046,
+        "feature_value": 0.16404
+      },
+      {
+        "feature": "intra_left_eyebrow",
+        "shap_value": 0.0004,
+        "feature_value": 0.21293
+      },
+      {
+        "feature": "intra_mouth_averaged",
+        "shap_value": 0.00025,
+        "feature_value": 0.73844
+      },
+      {
+        "feature": "inter_jaw__nose",
+        "shap_value": 1e-05,
+        "feature_value": 1.39589
+      },
+      {
+        "feature": "inter_right_eyebrow__left_eyebrow",
+        "shap_value": 1e-05,
+        "feature_value": 1.01316
+      },
+      {
+        "feature": "inter_right_eyebrow__right_eye",
+        "shap_value": 1e-05,
+        "feature_value": 1.01316
+      },
+      {
+        "feature": "inter_left_eyebrow__left_eye",
+        "shap_value": 1e-05,
+        "feature_value": 0.80807
+      },
+      {
+        "feature": "inter_right_eye__left_eye",
+        "shap_value": 1e-05,
+        "feature_value": 1.30365
+      },
+      {
+        "feature": "inter_mouth_outer__mouth_inner",
+        "shap_value": 1e-05,
+        "feature_value": 1.4018
+      },
+      {
+        "feature": "inter_left_eyebrow__nose",
+        "shap_value": 1e-05,
+        "feature_value": 0.80807
+      },
+      {
+        "feature": "inter_right_eye__nose",
+        "shap_value": 1e-05,
+        "feature_value": 1.30365
+      },
+      {
+        "feature": "inter_left_eye__nose",
+        "shap_value": 1e-05,
+        "feature_value": 0.83507
+      },
+      {
+        "feature": "inter_nose__mouth_outer",
+        "shap_value": 1e-05,
+        "feature_value": 1.20031
+      },
+      {
+        "feature": "inter_nose__mouth_inner",
+        "shap_value": 1e-05,
+        "feature_value": 1.20031
+      },
+      {
+        "feature": "inter_right_eyebrow__mouth_outer",
+        "shap_value": 1e-05,
+        "feature_value": 1.01316
+      },
+      {
+        "feature": "inter_left_eyebrow__mouth_outer",
+        "shap_value": 1e-05,
+        "feature_value": 0.80807
+      },
+      {
+        "feature": "inter_right_eye__mouth_outer",
+        "shap_value": 1e-05,
+        "feature_value": 1.30365
+      },
+      {
+        "feature": "inter_left_eye__mouth_outer",
+        "shap_value": 1e-05,
+        "feature_value": 0.83507
+      },
+      {
+        "feature": "inter_jaw__mouth_outer",
+        "shap_value": 1e-05,
+        "feature_value": 1.39589
+      },
+      {
+        "feature": "inter_right_eyebrow__nose",
+        "shap_value": 1e-05,
+        "feature_value": 1.01316
+      }
+    ],
+    "sample_index": 2,
+    "true_label": "contempt",
+    "predicted_label": "surprise",
+    "waterfall_artifact": "C:\\Users\\likhi\\OneDrive\\Pictures\\Desktop\\addn\\kingmenss\\implementation\\artifacts\\xai\\sample_2_waterfall_contempt_vs_surprise.png"
+  },
+  {
+    "base_value": 0.5369,
+    "prediction_val": 0.53672,
+    "shap_values": [
+      0.0003994184966049331,
+      -0.0009460346652973001,
+      -0.00015558634788401276,
+      -0.0012824244691348279,
+      0.0026937531441684967,
+      -0.0008590001205230397,
+      2.1095431655053136e-05,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06,
+      -3.3053102160195624e-06
+    ],
+    "top_drivers": [
+      {
+        "feature": "intra_left_eye",
+        "shap_value": 0.00269,
+        "feature_value": 0.18121
+      },
+      {
+        "feature": "intra_right_eye",
+        "shap_value": -0.00128,
+        "feature_value": 0.59581
+      },
+      {
+        "feature": "intra_left_eyebrow",
+        "shap_value": -0.00095,
+        "feature_value": 0.20296
+      },
+      {
+        "feature": "intra_jaw",
+        "shap_value": -0.00086,
+        "feature_value": 0.95022
+      },
+      {
+        "feature": "intra_right_eyebrow",
+        "shap_value": 0.0004,
+        "feature_value": 0.55157
+      },
+      {
+        "feature": "intra_nose",
+        "shap_value": -0.00016,
+        "feature_value": 0.53842
+      },
+      {
+        "feature": "intra_mouth_averaged",
+        "shap_value": 2e-05,
+        "feature_value": 0.73682
+      },
+      {
+        "feature": "inter_jaw__nose",
+        "shap_value": -0.0,
+        "feature_value": 1.39049
+      },
+      {
+        "feature": "inter_right_eyebrow__left_eyebrow",
+        "shap_value": -0.0,
+        "feature_value": 1.02382
+      },
+      {
+        "feature": "inter_right_eyebrow__right_eye",
+        "shap_value": -0.0,
+        "feature_value": 1.02382
+      },
+      {
+        "feature": "inter_left_eyebrow__left_eye",
+        "shap_value": -0.0,
+        "feature_value": 0.78394
+      },
+      {
+        "feature": "inter_right_eye__left_eye",
+        "shap_value": -0.0,
+        "feature_value": 1.26263
+      },
+      {
+        "feature": "inter_mouth_outer__mouth_inner",
+        "shap_value": -0.0,
+        "feature_value": 1.401
+      },
+      {
+        "feature": "inter_left_eyebrow__nose",
+        "shap_value": -0.0,
+        "feature_value": 0.78394
+      },
+      {
+        "feature": "inter_right_eye__nose",
+        "shap_value": -0.0,
+        "feature_value": 1.26263
+      },
+      {
+        "feature": "inter_left_eye__nose",
+        "shap_value": -0.0,
+        "feature_value": 0.8641
+      },
+      {
+        "feature": "inter_nose__mouth_outer",
+        "shap_value": -0.0,
+        "feature_value": 1.19099
+      },
+      {
+        "feature": "inter_nose__mouth_inner",
+        "shap_value": -0.0,
+        "feature_value": 1.19099
+      },
+      {
+        "feature": "inter_right_eyebrow__mouth_outer",
+        "shap_value": -0.0,
+        "feature_value": 1.02382
+      },
+      {
+        "feature": "inter_left_eyebrow__mouth_outer",
+        "shap_value": -0.0,
+        "feature_value": 0.78394
+      },
+      {
+        "feature": "inter_right_eye__mouth_outer",
+        "shap_value": -0.0,
+        "feature_value": 1.26263
+      },
+      {
+        "feature": "inter_left_eye__mouth_outer",
+        "shap_value": -0.0,
+        "feature_value": 0.8641
+      },
+      {
+        "feature": "inter_jaw__mouth_outer",
+        "shap_value": -0.0,
+        "feature_value": 1.39049
+      },
+      {
+        "feature": "inter_right_eyebrow__nose",
+        "shap_value": -0.0,
+        "feature_value": 1.02382
+      }
+    ],
+    "sample_index": 3,
+    "true_label": "disgust",
+    "predicted_label": "disgust",
+    "waterfall_artifact": "C:\\Users\\likhi\\OneDrive\\Pictures\\Desktop\\addn\\kingmenss\\implementation\\artifacts\\xai\\sample_3_waterfall_disgust_vs_disgust.png"
+  },
+  {
+    "base_value": 0.5369,
+    "prediction_val": 0.53534,
+    "shap_values": [
+      -0.0009899801552999985,
+      0.0009406952831396441,
+      0.0005459761473617992,
+      -0.0034604318150342666,
+      0.0008025713124012718,
+      0.0007188757581749233,
+      0.00022829892715336405,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05,
+      -2.0452206613435467e-05
+    ],
+    "top_drivers": [
+      {
+        "feature": "intra_right_eye",
+        "shap_value": -0.00346,
+        "feature_value": 0.57967
+      },
+      {
+        "feature": "intra_right_eyebrow",
+        "shap_value": -0.00099,
+        "feature_value": 0.54179
+      },
+      {
+        "feature": "intra_left_eyebrow",
+        "shap_value": 0.00094,
+        "feature_value": 0.21642
+      },
+      {
+        "feature": "intra_left_eye",
+        "shap_value": 0.0008,
+        "feature_value": 0.1663
+      },
+      {
+        "feature": "intra_jaw",
+        "shap_value": 0.00072,
+        "feature_value": 0.96194
+      },
+      {
+        "feature": "intra_nose",
+        "shap_value": 0.00055,
+        "feature_value": 0.54308
+      },
+      {
+        "feature": "intra_mouth_averaged",
+        "shap_value": 0.00023,
+        "feature_value": 0.73819
+      },
+      {
+        "feature": "inter_jaw__nose",
+        "shap_value": -2e-05,
+        "feature_value": 1.47127
+      },
+      {
+        "feature": "inter_right_eyebrow__left_eyebrow",
+        "shap_value": -2e-05,
+        "feature_value": 1.02576
+      },
+      {
+        "feature": "inter_right_eyebrow__right_eye",
+        "shap_value": -2e-05,
+        "feature_value": 1.02576
+      },
+      {
+        "feature": "inter_left_eyebrow__left_eye",
+        "shap_value": -2e-05,
+        "feature_value": 0.8049
+      },
+      {
+        "feature": "inter_right_eye__left_eye",
+        "shap_value": -2e-05,
+        "feature_value": 1.2475
+      },
+      {
+        "feature": "inter_mouth_outer__mouth_inner",
+        "shap_value": -2e-05,
+        "feature_value": 1.39881
+      },
+      {
+        "feature": "inter_left_eyebrow__nose",
+        "shap_value": -2e-05,
+        "feature_value": 0.8049
+      },
+      {
+        "feature": "inter_right_eye__nose",
+        "shap_value": -2e-05,
+        "feature_value": 1.2475
+      },
+      {
+        "feature": "inter_left_eye__nose",
+        "shap_value": -2e-05,
+        "feature_value": 0.83748
+      },
+      {
+        "feature": "inter_nose__mouth_outer",
+        "shap_value": -2e-05,
+        "feature_value": 1.19416
+      },
+      {
+        "feature": "inter_nose__mouth_inner",
+        "shap_value": -2e-05,
+        "feature_value": 1.19416
+      },
+      {
+        "feature": "inter_right_eyebrow__mouth_outer",
+        "shap_value": -2e-05,
+        "feature_value": 1.02576
+      },
+      {
+        "feature": "inter_left_eyebrow__mouth_outer",
+        "shap_value": -2e-05,
+        "feature_value": 0.8049
+      },
+      {
+        "feature": "inter_right_eye__mouth_outer",
+        "shap_value": -2e-05,
+        "feature_value": 1.2475
+      },
+      {
+        "feature": "inter_left_eye__mouth_outer",
+        "shap_value": -2e-05,
+        "feature_value": 0.83748
+      },
+      {
+        "feature": "inter_jaw__mouth_outer",
+        "shap_value": -2e-05,
+        "feature_value": 1.47127
+      },
+      {
+        "feature": "inter_right_eyebrow__nose",
+        "shap_value": -2e-05,
+        "feature_value": 1.02576
+      }
+    ],
+    "sample_index": 4,
+    "true_label": "fear",
+    "predicted_label": "disgust",
+    "waterfall_artifact": "C:\\Users\\likhi\\OneDrive\\Pictures\\Desktop\\addn\\kingmenss\\implementation\\artifacts\\xai\\sample_4_waterfall_fear_vs_disgust.png"
+  }
+]

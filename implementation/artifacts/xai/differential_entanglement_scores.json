@@ -1,0 +1,239 @@
+{
+  "n_correct": 5,
+  "n_error": 3,
+  "feature_metrics": {
+    "intra_right_eyebrow": {
+      "mean_correct": 0.7652796426975265,
+      "mean_error": 0.818836034268501,
+      "delta_s": 0.05355639157097458,
+      "z_score": 2.366551370360269,
+      "statistically_miscalibrated": true
+    },
+    "intra_left_eyebrow": {
+      "mean_correct": 0.2898683253453048,
+      "mean_error": 0.2836814848777121,
+      "delta_s": -0.0061868404675927136,
+      "z_score": -0.613827280022915,
+      "statistically_miscalibrated": false
+    },
+    "intra_nose": {
+      "mean_correct": 0.6213591323153517,
+      "mean_error": 0.5846699475313765,
+      "delta_s": -0.036689184783975204,
+      "z_score": -3.3746278960264027,
+      "statistically_miscalibrated": true
+    },
+    "intra_right_eye": {
+      "mean_correct": 0.6939840769368735,
+      "mean_error": 0.722379957988875,
+      "delta_s": 0.028395881052001526,
+      "z_score": 1.2706196689846405,
+      "statistically_miscalibrated": false
+    },
+    "intra_left_eye": {
+      "mean_correct": 0.2161971467219886,
+      "mean_error": 0.19543514817086025,
+      "delta_s": -0.02076199855112834,
+      "z_score": -1.4989701410092715,
+      "statistically_miscalibrated": false
+    },
+    "intra_jaw": {
+      "mean_correct": 0.9846884960233865,
+      "mean_error": 0.9866900486078016,
+      "delta_s": 0.002001552584415145,
+      "z_score": 0.35208761311771275,
+      "statistically_miscalibrated": false
+    },
+    "intra_mouth_averaged": {
+      "mean_correct": 0.83029503687724,
+      "mean_error": 0.7913691590672247,
+      "delta_s": -0.03892587781001533,
+      "z_score": -3.06035846806304,
+      "statistically_miscalibrated": true
+    },
+    "inter_right_eyebrow__left_eyebrow": {
+      "mean_correct": 1.1554252648921857,
+      "mean_error": 1.2637429103342581,
+      "delta_s": 0.10831764544207245,
+      "z_score": 3.6562676413186037,
+      "statistically_miscalibrated": true
+    },
+    "inter_right_eyebrow__right_eye": {
+      "mean_correct": 1.155425239788859,
+      "mean_error": 1.2637429103342581,
+      "delta_s": 0.1083176705453992,
+      "z_score": 3.6562693464373566,
+      "statistically_miscalibrated": true
+    },
+    "inter_left_eyebrow__left_eye": {
+      "mean_correct": 0.8279515187626221,
+      "mean_error": 0.8535243855734954,
+      "delta_s": 0.02557286681087334,
+      "z_score": 0.8362077547692371,
+      "statistically_miscalibrated": false
+    },
+    "inter_right_eye__left_eye": {
+      "mean_correct": 1.3326255842493915,
+      "mean_error": 1.3758608960260492,
+      "delta_s": 0.04323531177665774,
+      "z_score": 1.6961120857511034,
+      "statistically_miscalibrated": false
+    },
+    "inter_right_eyebrow__nose": {
+      "mean_correct": 1.1554252971259769,
+      "mean_error": 1.2637429103342581,
+      "delta_s": 0.10831761320828126,
+      "z_score": 3.6562699576094952,
+      "statistically_miscalibrated": true
+    },
+    "inter_left_eyebrow__nose": {
+      "mean_correct": 0.8279515187626221,
+      "mean_error": 0.8535243855734954,
+      "delta_s": 0.02557286681087334,
+      "z_score": 0.8362077547692371,
+      "statistically_miscalibrated": false
+    },
+    "inter_right_eye__nose": {
+      "mean_correct": 1.3326255842493915,
+      "mean_error": 1.3758608455871422,
+      "delta_s": 0.043235261337750686,
+      "z_score": 1.6961086473709266,
+      "statistically_miscalibrated": false
+    },
+    "inter_left_eye__nose": {
+      "mean_correct": 0.8598449122788792,
+      "mean_error": 0.8363085496015529,
+      "delta_s": -0.023536362677326284,
+      "z_score": -1.1609619315882902,
+      "statistically_miscalibrated": false
+    },
+    "inter_nose__mouth_outer": {
+      "mean_correct": 1.3223857625108233,
+      "mean_error": 1.2908021839497805,
+      "delta_s": -0.03158357856104277,
+      "z_score": -3.1833641081843536,
+      "statistically_miscalibrated": true
+    },
+    "inter_nose__mouth_inner": {
+      "mean_correct": 1.3223857933075494,
+      "mean_error": 1.2908021839497805,
+      "delta_s": -0.03158360935776883,
+      "z_score": -3.1833636833972503,
+      "statistically_miscalibrated": true
+    },
+    "inter_right_eyebrow__mouth_outer": {
+      "mean_correct": 1.155425239788859,
+      "mean_error": 1.263742915723,
+      "delta_s": 0.1083176759341411,
+      "z_score": 3.6562699867709454,
+      "statistically_miscalibrated": true
+    },
+    "inter_left_eyebrow__mouth_outer": {
+      "mean_correct": 0.8279515187626221,
+      "mean_error": 0.8535243855734954,
+      "delta_s": 0.02557286681087334,
+      "z_score": 0.8362077547692371,
+      "statistically_miscalibrated": false
+    },
+    "inter_right_eye__mouth_outer": {
+      "mean_correct": 1.3326255842493915,
+      "mean_error": 1.3758608455871422,
+      "delta_s": 0.043235261337750686,
+      "z_score": 1.6961086473709266,
+      "statistically_miscalibrated": false
+    },
+    "inter_left_eye__mouth_outer": {
+      "mean_correct": 0.8598448788512327,
+      "mean_error": 0.8363086239468558,
+      "delta_s": -0.02353625490437694,
+      "z_score": -1.1609532580989002,
+      "statistically_miscalibrated": false
+    },
+    "inter_jaw__mouth_outer": {
+      "mean_correct": 1.2963563920428203,
+      "mean_error": 1.3121776216247383,
+      "delta_s": 0.015821229581918006,
+      "z_score": 1.0959771501465319,
+      "statistically_miscalibrated": false
+    },
+    "inter_jaw__nose": {
+      "mean_correct": 1.2963564146208082,
+      "mean_error": 1.3121776216247383,
+      "delta_s": 0.015821207003930082,
+      "z_score": 1.095974993190874,
+      "statistically_miscalibrated": false
+    },
+    "inter_mouth_outer__mouth_inner": {
+      "mean_correct": 1.5070840606076314,
+      "mean_error": 1.4739032122628941,
+      "delta_s": -0.033180848344737335,
+      "z_score": -3.1158979404606804,
+      "statistically_miscalibrated": true
+    }
+  },
+  "flagged_features": [
+    "intra_right_eyebrow",
+    "intra_nose",
+    "intra_mouth_averaged",
+    "inter_right_eyebrow__left_eyebrow",
+    "inter_right_eyebrow__right_eye",
+    "inter_right_eyebrow__nose",
+    "inter_nose__mouth_outer",
+    "inter_nose__mouth_inner",
+    "inter_right_eyebrow__mouth_outer",
+    "inter_mouth_outer__mouth_inner"
+  ],
+  "mean_correct_vector": [
+    0.7652796426975265,
+    0.2898683253453048,
+    0.6213591323153517,
+    0.6939840769368735,
+    0.2161971467219886,
+    0.9846884960233865,
+    0.83029503687724,
+    1.1554252648921857,
+    1.155425239788859,
+    0.8279515187626221,
+    1.3326255842493915,
+    1.1554252971259769,
+    0.8279515187626221,
+    1.3326255842493915,
+    0.8598449122788792,
+    1.3223857625108233,
+    1.3223857933075494,
+    1.155425239788859,
+    0.8279515187626221,
+    1.3326255842493915,
+    0.8598448788512327,
+    1.2963563920428203,
+    1.2963564146208082,
+    1.5070840606076314
+  ],
+  "mean_error_vector": [
+    0.818836034268501,
+    0.2836814848777121,
+    0.5846699475313765,
+    0.722379957988875,
+    0.19543514817086025,
+    0.9866900486078016,
+    0.7913691590672247,
+    1.2637429103342581,
+    1.2637429103342581,
+    0.8535243855734954,
+    1.3758608960260492,
+    1.2637429103342581,
+    0.8535243855734954,
+    1.3758608455871422,
+    0.8363085496015529,
+    1.2908021839497805,
+    1.2908021839497805,
+    1.263742915723,
+    0.8535243855734954,
+    1.3758608455871422,
+    0.8363086239468558,
+    1.3121776216247383,
+    1.3121776216247383,
+    1.4739032122628941
+  ],
+  "radar_artifact": "C:\\Users\\likhi\\OneDrive\\Pictures\\Desktop\\addn\\kingmenss\\implementation\\artifacts\\xai\\confusion_radar_anger_vs_disgust.png"
+}

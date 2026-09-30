@@ -1,0 +1,117 @@
+{
+  "total_samples": 12,
+  "total_errors": 10,
+  "taxonomy_counts": {
+    "Landmark Data Degradation": 1,
+    "Quantum Feature Miscalibration": 2,
+    "Classifier Boundary Overlap": 7
+  },
+  "taxonomy_percentages": {
+    "Landmark Data Degradation": 10.0,
+    "Quantum Feature Miscalibration": 20.0,
+    "Classifier Boundary Overlap": 70.0
+  },
+  "au_anomalies_flagged": 12,
+  "detailed_errors": [
+    {
+      "sample_index": 0,
+      "true_label": "surprise",
+      "pred_label": "contempt",
+      "landmark_confidence": 0.8521459911903435,
+      "top_feature": "intra_left_eyebrow",
+      "top_feature_z_score": 5.723498176366347,
+      "au_anomaly_index": 1.0,
+      "root_cause": "Quantum Feature Miscalibration"
+    },
+    {
+      "sample_index": 1,
+      "true_label": "anger",
+      "pred_label": "contempt",
+      "landmark_confidence": 0.8894298277107762,
+      "top_feature": "intra_nose",
+      "top_feature_z_score": 5.545136507660231,
+      "au_anomaly_index": 1.0,
+      "root_cause": "Quantum Feature Miscalibration"
+    },
+    {
+      "sample_index": 2,
+      "true_label": "contempt",
+      "pred_label": "surprise",
+      "landmark_confidence": 0.7992825161413597,
+      "top_feature": "intra_right_eyebrow",
+      "top_feature_z_score": 1.9340293165148663,
+      "au_anomaly_index": 1.0,
+      "root_cause": "Classifier Boundary Overlap"
+    },
+    {
+      "sample_index": 4,
+      "true_label": "fear",
+      "pred_label": "disgust",
+      "landmark_confidence": 0.8795191165951708,
+      "top_feature": "intra_right_eye",
+      "top_feature_z_score": 1.4777633660963243,
+      "au_anomaly_index": 1.0,
+      "root_cause": "Classifier Boundary Overlap"
+    },
+    {
+      "sample_index": 5,
+      "true_label": "happy",
+      "pred_label": "sadness",
+      "landmark_confidence": 0.8745464448881722,
+      "top_feature": "intra_right_eyebrow",
+      "top_feature_z_score": 1.9340293165148663,
+      "au_anomaly_index": 1.0,
+      "root_cause": "Classifier Boundary Overlap"
+    },
+    {
+      "sample_index": 6,
+      "true_label": "sadness",
+      "pred_label": "contempt",
+      "landmark_confidence": 0.46517432824480953,
+      "top_feature": "intra_right_eyebrow",
+      "top_feature_z_score": 1.9340293165148663,
+      "au_anomaly_index": 1.0,
+      "root_cause": "Landmark Data Degradation"
+    },
+    {
+      "sample_index": 7,
+      "true_label": "surprise",
+      "pred_label": "disgust",
+      "landmark_confidence": 0.8256515489884666,
+      "top_feature": "intra_right_eyebrow",
+      "top_feature_z_score": 1.9340293165148663,
+      "au_anomaly_index": 1.0,
+      "root_cause": "Classifier Boundary Overlap"
+    },
+    {
+      "sample_index": 8,
+      "true_label": "anger",
+      "pred_label": "sadness",
+      "landmark_confidence": 0.7765419674045905,
+      "top_feature": "intra_right_eyebrow",
+      "top_feature_z_score": 1.9340293165148663,
+      "au_anomaly_index": 1.0,
+      "root_cause": "Classifier Boundary Overlap"
+    },
+    {
+      "sample_index": 9,
+      "true_label": "contempt",
+      "pred_label": "fear",
+      "landmark_confidence": 0.8783708563694894,
+      "top_feature": "intra_right_eyebrow",
+      "top_feature_z_score": 1.9340293165148663,
+      "au_anomaly_index": 1.0,
+      "root_cause": "Classifier Boundary Overlap"
+    },
+    {
+      "sample_index": 10,
+      "true_label": "disgust",
+      "pred_label": "fear",
+      "landmark_confidence": 0.9061574475845541,
+      "top_feature": "intra_right_eyebrow",
+      "top_feature_z_score": 1.9340293165148663,
+      "au_anomaly_index": 1.0,
+      "root_cause": "Classifier Boundary Overlap"
+    }
+  ]
+}
